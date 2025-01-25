@@ -1,7 +1,7 @@
 
 # EnsembleAI
 
-EnsembleAI is a framework for building intelligent agents that can perform various tasks such as summarizing Wikipedia articles, analyzing YouTube transcripts, scraping web pages, and more.
+EnsembleAI is a framework for building intelligent agents that can perform various tasks such as summarizing Wikipedia articles, analyzing YouTube transcripts, scraping web pages, Advanced Image Analysis and much more.
 
 ## Features
 
@@ -29,7 +29,7 @@ from ensembleai.models import LLMModel
 
 # Initialize models and tools
 model = LLMModel(name="test-model", api_key="your-api-key")
-youtube_tool = YouTubeTranscriptTool(api_key="your-youtube-api-key", keyword="your-keyword")
+youtube_tool = YouTubeTranscriptTool(api_key="your-youtube-api-key", keyword="your-keyword") # add 'channel_name' for specific channel search.
 wikipedia_tool = WikipediaTool(topic="your-topic")
 image_tool = ImageAnalysisTool(text="your-text", url="your-image-url")
 webscraper_tool = WebScrapingTool(url="your-url")
