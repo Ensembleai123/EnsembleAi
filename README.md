@@ -10,6 +10,7 @@ EnsembleAI is a framework for building intelligent agents that can perform vario
 - Web Scraper
 - Image Analysis
 - Retrieval-Augmented Generation (RAG)
+- Extensive Multiagent Interaction
 
 ## Installation
 
