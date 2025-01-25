@@ -21,7 +21,11 @@ pip install ensembleai
 ## Usage
 
 ```python
-from ensembleai import Agent, LLMModel, Environment, YouTubeTranscriptTool, WikipediaTool, ImageAnalysisTool, WebScrapingTool, RAGTool
+from ensembleai.agents import Agent
+from ensembleai.environments import Environment
+from ensembleai.tools import WikipediaTool , ImageAnalysisTool , WebScrapingTool , RAGTool , YouTubeTranscriptTool
+from ensembleai.models import LLMModel
+
 
 # Initialize models and tools
 model = LLMModel(name="test-model", api_key="your-api-key")
