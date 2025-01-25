@@ -31,8 +31,8 @@ from ensembleai.models import LLMModel
 model = LLMModel(name="test-model", api_key="your-api-key")
 youtube_tool = YouTubeTranscriptTool(api_key="your-youtube-api-key", keyword="your-keyword") # add 'channel_name' for specific channel search.
 wikipedia_tool = WikipediaTool(topic="your-topic")
-image_tool = ImageAnalysisTool(text="your-text", url="your-image-url")
-webscraper_tool = WebScrapingTool(url="your-url")
+image_tool = ImageAnalysisTool(text="your-text", urls=["your-image-urls]")
+webscraper_tool = WebScrapingTool(urls=["your-urls"])
 rag_tool = RAGTool(file_paths=["path/to/your/file.pdf"])
 
 # Create agents
