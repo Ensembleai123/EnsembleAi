@@ -78,4 +78,8 @@ This project is licensed under the MIT License.
 Contributions are welcome! Feel free to open issues and submit pull requests.
 
 ## Contact
-For any questions or suggestions, reach out to **[Your Name]** at **your.email@example.com**.
+For any questions or suggestions, reach out to **Shreyas Jain , Prakhar Jain , Kushagra Jain** at **shreyasjain.feb@gmail.com , prakharjain2004@gmail.com , kushagrajain.feb@gmail.com**.
+Linkedin
+- **[Shreyas Jain](https://www.linkedin.com/in/shreyas-jain-b7970125a/)**
+- **[Prakhar Jain](https://www.linkedin.com/in/prakhar-jain-ab2a20166/)**
+- **[Kushagra Jain](https://www.linkedin.com/in/kushagrajain2004/)**
