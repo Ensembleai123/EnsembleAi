@@ -21,7 +21,7 @@ from ensembleai.models import LLMModel
 ### Initialize Models and Tools
 ```python
 # Initialize the model
-model = LLMModel(name="test-model", api_key="your-api-key")
+model = LLMModel(name="test-model", api_key="your-Groq-api-key") # Test Model and api key from Groq (https://console.groq.com/docs/models)
 
 # Initialize tools
 youtube_tool = YouTubeTranscriptTool(api_key="your-youtube-api-key", keyword="your-keyword")  # Add 'channel_name' for specific channel search.
